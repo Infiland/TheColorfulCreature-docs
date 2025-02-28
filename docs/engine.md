@@ -49,9 +49,15 @@ The game is written in GML, GameMaker's proprietary scripting language. Key feat
 
 ## Extensions
 - Steamworks SDK integration
-- Custom shader systems for color effects
-- File system management
-- Achievement system
+- Google Play Games Services integration
+- Google AdMob integration
+- Custom shader for color-blindness simulation
+
+## Issues
+- No delta time, so movement is affected by frame rate, which is why the game is forced to run at 60 FPS.
+- No UI system, so all UI is handled in the game.
+- No particle system implemented
+- The game has forced resolution at 1024x768, so scaling is not possible without a major rewrite.
 
 ## Resources
 - [GameMaker Documentation](https://manual.yoyogames.com/)
