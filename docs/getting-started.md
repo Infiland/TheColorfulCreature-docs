@@ -1,6 +1,6 @@
 # Getting Started
 
-The Colorful Creature is a difficult platformer with puzzle color mechanics, featuring 350 built-in handcrafted levels made by a single indie developer.
+The Colorful Creature is a difficult platformer with puzzle color mechanics, featuring 350 built-in handcrafted levels made by a single indie developer, Infiland.
 
 ## Development Setup
 
