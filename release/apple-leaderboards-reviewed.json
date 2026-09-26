@@ -1,0 +1,551 @@
+{
+  "source": "Apple leaderboard mapping in scripts/scr_platform_services/scr_platform_services.gml; submit call sites audited in the GML project.",
+  "count": 30,
+  "excluded": {
+    "Current Daily Level Streak": "Live/resetting streak state, not a stable all-time record.",
+    "Seasonal Endless Run": "The source tracks season-scoped scores, but its reset schedule and cross-version semantics are not modeled as an Apple recurring leaderboard."
+  },
+  "leaderboards": [
+    {
+      "reference_name": "Big Room Challenge Time",
+      "leaderboard_id": "com.infiland.tcc.board.big_room_challenge_time",
+      "type": "classic",
+      "sort_order": "ascending",
+      "score_format": "Elapsed Time – To the hundredth of a second",
+      "score_unit": "centiseconds",
+      "score_meaning": "Elapsed time, sorted lowest-first. GML submits milliseconds and the Apple service boundary converts once to centiseconds (global.time * 100).",
+      "status": "draft; not submitted for review",
+      "score_submission_type": "Best Score",
+      "localization": {
+        "language": "English (U.S.)",
+        "display_name": "Big Room Challenge Time",
+        "description": "Best completion time for the Big Room Challenge.",
+        "score_format_suffix_singular": "",
+        "score_format_suffix_plural": ""
+      }
+    },
+    {
+      "reference_name": "Blind Challenge Time",
+      "leaderboard_id": "com.infiland.tcc.board.blind_challenge_time",
+      "type": "classic",
+      "sort_order": "ascending",
+      "score_format": "Elapsed Time – To the hundredth of a second",
+      "score_unit": "centiseconds",
+      "score_meaning": "Elapsed time, sorted lowest-first. GML submits milliseconds and the Apple service boundary converts once to centiseconds (global.time * 100).",
+      "status": "draft; not submitted for review",
+      "score_submission_type": "Best Score",
+      "localization": {
+        "language": "English (U.S.)",
+        "display_name": "Blind Challenge Time",
+        "description": "Best completion time for the Blind Challenge.",
+        "score_format_suffix_singular": "",
+        "score_format_suffix_plural": ""
+      }
+    },
+    {
+      "reference_name": "Breakable Challenge Time",
+      "leaderboard_id": "com.infiland.tcc.board.breakable_challenge_time",
+      "type": "classic",
+      "sort_order": "ascending",
+      "score_format": "Elapsed Time – To the hundredth of a second",
+      "score_unit": "centiseconds",
+      "score_meaning": "Elapsed time, sorted lowest-first. GML submits milliseconds and the Apple service boundary converts once to centiseconds (global.time * 100).",
+      "status": "draft; not submitted for review",
+      "score_submission_type": "Best Score",
+      "localization": {
+        "language": "English (U.S.)",
+        "display_name": "Breakable Challenge Time",
+        "description": "Best completion time for the Breakable Challenge.",
+        "score_format_suffix_singular": "",
+        "score_format_suffix_plural": ""
+      }
+    },
+    {
+      "reference_name": "Community Challenge Time",
+      "leaderboard_id": "com.infiland.tcc.board.community_challenge_time",
+      "type": "classic",
+      "sort_order": "ascending",
+      "score_format": "Elapsed Time – To the hundredth of a second",
+      "score_unit": "centiseconds",
+      "score_meaning": "Elapsed time, sorted lowest-first. GML submits milliseconds and the Apple service boundary converts once to centiseconds (global.time * 100).",
+      "status": "draft; not submitted for review",
+      "score_submission_type": "Best Score",
+      "localization": {
+        "language": "English (U.S.)",
+        "display_name": "Community Challenge Time",
+        "description": "Best completion time for the Community Challenge.",
+        "score_format_suffix_singular": "",
+        "score_format_suffix_plural": ""
+      }
+    },
+    {
+      "reference_name": "Corrupted Spike Challenge Time",
+      "leaderboard_id": "com.infiland.tcc.board.corrupted_spike_challenge_time",
+      "type": "classic",
+      "sort_order": "ascending",
+      "score_format": "Elapsed Time – To the hundredth of a second",
+      "score_unit": "centiseconds",
+      "score_meaning": "Elapsed time, sorted lowest-first. GML submits milliseconds and the Apple service boundary converts once to centiseconds (global.time * 100).",
+      "status": "draft; not submitted for review",
+      "score_submission_type": "Best Score",
+      "localization": {
+        "language": "English (U.S.)",
+        "display_name": "Corrupted Spike Challenge Time",
+        "description": "Best completion time for the Corrupted Spike Challenge.",
+        "score_format_suffix_singular": "",
+        "score_format_suffix_plural": ""
+      }
+    },
+    {
+      "reference_name": "DJ Challenge Time",
+      "leaderboard_id": "com.infiland.tcc.board.dj_challenge_time",
+      "type": "classic",
+      "sort_order": "ascending",
+      "score_format": "Elapsed Time – To the hundredth of a second",
+      "score_unit": "centiseconds",
+      "score_meaning": "Elapsed time, sorted lowest-first. GML submits milliseconds and the Apple service boundary converts once to centiseconds (global.time * 100).",
+      "status": "draft; not submitted for review",
+      "score_submission_type": "Best Score",
+      "localization": {
+        "language": "English (U.S.)",
+        "display_name": "DJ Challenge Time",
+        "description": "Best completion time for the DJ Challenge.",
+        "score_format_suffix_singular": "",
+        "score_format_suffix_plural": ""
+      }
+    },
+    {
+      "reference_name": "Invisible Challenge Time",
+      "leaderboard_id": "com.infiland.tcc.board.invisible_challenge_time",
+      "type": "classic",
+      "sort_order": "ascending",
+      "score_format": "Elapsed Time – To the hundredth of a second",
+      "score_unit": "centiseconds",
+      "score_meaning": "Elapsed time, sorted lowest-first. GML submits milliseconds and the Apple service boundary converts once to centiseconds (global.time * 100).",
+      "status": "draft; not submitted for review",
+      "score_submission_type": "Best Score",
+      "localization": {
+        "language": "English (U.S.)",
+        "display_name": "Invisible Challenge Time",
+        "description": "Best completion time for the Invisible Challenge.",
+        "score_format_suffix_singular": "",
+        "score_format_suffix_plural": ""
+      }
+    },
+    {
+      "reference_name": "Kaizo Challenge Time",
+      "leaderboard_id": "com.infiland.tcc.board.kaizo_challenge_time",
+      "type": "classic",
+      "sort_order": "ascending",
+      "score_format": "Elapsed Time – To the hundredth of a second",
+      "score_unit": "centiseconds",
+      "score_meaning": "Elapsed time, sorted lowest-first. GML submits milliseconds and the Apple service boundary converts once to centiseconds (global.time * 100).",
+      "status": "draft; not submitted for review",
+      "score_submission_type": "Best Score",
+      "localization": {
+        "language": "English (U.S.)",
+        "display_name": "Kaizo Challenge Time",
+        "description": "Best completion time for the Kaizo Challenge.",
+        "score_format_suffix_singular": "",
+        "score_format_suffix_plural": ""
+      }
+    },
+    {
+      "reference_name": "Ladder Challenge Time",
+      "leaderboard_id": "com.infiland.tcc.board.ladder_challenge_time",
+      "type": "classic",
+      "sort_order": "ascending",
+      "score_format": "Elapsed Time – To the hundredth of a second",
+      "score_unit": "centiseconds",
+      "score_meaning": "Elapsed time, sorted lowest-first. GML submits milliseconds and the Apple service boundary converts once to centiseconds (global.time * 100).",
+      "status": "draft; not submitted for review",
+      "score_submission_type": "Best Score",
+      "localization": {
+        "language": "English (U.S.)",
+        "display_name": "Ladder Challenge Time",
+        "description": "Best completion time for the Ladder Challenge.",
+        "score_format_suffix_singular": "",
+        "score_format_suffix_plural": ""
+      }
+    },
+    {
+      "reference_name": "Moving Challenge Time",
+      "leaderboard_id": "com.infiland.tcc.board.moving_challenge_time",
+      "type": "classic",
+      "sort_order": "ascending",
+      "score_format": "Elapsed Time – To the hundredth of a second",
+      "score_unit": "centiseconds",
+      "score_meaning": "Elapsed time, sorted lowest-first. GML submits milliseconds and the Apple service boundary converts once to centiseconds (global.time * 100).",
+      "status": "draft; not submitted for review",
+      "score_submission_type": "Best Score",
+      "localization": {
+        "language": "English (U.S.)",
+        "display_name": "Moving Challenge Time",
+        "description": "Best completion time for the Moving Challenge.",
+        "score_format_suffix_singular": "",
+        "score_format_suffix_plural": ""
+      }
+    },
+    {
+      "reference_name": "Slippery Challenge Time",
+      "leaderboard_id": "com.infiland.tcc.board.slippery_challenge_time",
+      "type": "classic",
+      "sort_order": "ascending",
+      "score_format": "Elapsed Time – To the hundredth of a second",
+      "score_unit": "centiseconds",
+      "score_meaning": "Elapsed time, sorted lowest-first. GML submits milliseconds and the Apple service boundary converts once to centiseconds (global.time * 100).",
+      "status": "draft; not submitted for review",
+      "score_submission_type": "Best Score",
+      "localization": {
+        "language": "English (U.S.)",
+        "display_name": "Slippery Challenge Time",
+        "description": "Best completion time for the Slippery Challenge.",
+        "score_format_suffix_singular": "",
+        "score_format_suffix_plural": ""
+      }
+    },
+    {
+      "reference_name": "Speed Challenge Time",
+      "leaderboard_id": "com.infiland.tcc.board.speed_challenge_time",
+      "type": "classic",
+      "sort_order": "ascending",
+      "score_format": "Elapsed Time – To the hundredth of a second",
+      "score_unit": "centiseconds",
+      "score_meaning": "Elapsed time, sorted lowest-first. GML submits milliseconds and the Apple service boundary converts once to centiseconds (global.time * 100).",
+      "status": "draft; not submitted for review",
+      "score_submission_type": "Best Score",
+      "localization": {
+        "language": "English (U.S.)",
+        "display_name": "Speed Challenge Time",
+        "description": "Best completion time for the Speed Challenge.",
+        "score_format_suffix_singular": "",
+        "score_format_suffix_plural": ""
+      }
+    },
+    {
+      "reference_name": "Spike Challenge Time",
+      "leaderboard_id": "com.infiland.tcc.board.spike_challenge_time",
+      "type": "classic",
+      "sort_order": "ascending",
+      "score_format": "Elapsed Time – To the hundredth of a second",
+      "score_unit": "centiseconds",
+      "score_meaning": "Elapsed time, sorted lowest-first. GML submits milliseconds and the Apple service boundary converts once to centiseconds (global.time * 100).",
+      "status": "draft; not submitted for review",
+      "score_submission_type": "Best Score",
+      "localization": {
+        "language": "English (U.S.)",
+        "display_name": "Spike Challenge Time",
+        "description": "Best completion time for the Spike Challenge.",
+        "score_format_suffix_singular": "",
+        "score_format_suffix_plural": ""
+      }
+    },
+    {
+      "reference_name": "Troop Challenge Time",
+      "leaderboard_id": "com.infiland.tcc.board.troop_challenge_time",
+      "type": "classic",
+      "sort_order": "ascending",
+      "score_format": "Elapsed Time – To the hundredth of a second",
+      "score_unit": "centiseconds",
+      "score_meaning": "Elapsed time, sorted lowest-first. GML submits milliseconds and the Apple service boundary converts once to centiseconds (global.time * 100).",
+      "status": "draft; not submitted for review",
+      "score_submission_type": "Best Score",
+      "localization": {
+        "language": "English (U.S.)",
+        "display_name": "Troop Challenge Time",
+        "description": "Best completion time for the Troop Challenge.",
+        "score_format_suffix_singular": "",
+        "score_format_suffix_plural": ""
+      }
+    },
+    {
+      "reference_name": "Tutorial Challenge Time",
+      "leaderboard_id": "com.infiland.tcc.board.tutorial_challenge_time",
+      "type": "classic",
+      "sort_order": "ascending",
+      "score_format": "Elapsed Time – To the hundredth of a second",
+      "score_unit": "centiseconds",
+      "score_meaning": "Elapsed time, sorted lowest-first. GML submits milliseconds and the Apple service boundary converts once to centiseconds (global.time * 100).",
+      "status": "draft; not submitted for review",
+      "score_submission_type": "Best Score",
+      "localization": {
+        "language": "English (U.S.)",
+        "display_name": "Tutorial Challenge Time",
+        "description": "Best completion time for the Tutorial Challenge.",
+        "score_format_suffix_singular": "",
+        "score_format_suffix_plural": ""
+      }
+    },
+    {
+      "reference_name": "Water Challenge Time",
+      "leaderboard_id": "com.infiland.tcc.board.water_challenge_time",
+      "type": "classic",
+      "sort_order": "ascending",
+      "score_format": "Elapsed Time – To the hundredth of a second",
+      "score_unit": "centiseconds",
+      "score_meaning": "Elapsed time, sorted lowest-first. GML submits milliseconds and the Apple service boundary converts once to centiseconds (global.time * 100).",
+      "status": "draft; not submitted for review",
+      "score_submission_type": "Best Score",
+      "localization": {
+        "language": "English (U.S.)",
+        "display_name": "Water Challenge Time",
+        "description": "Best completion time for the Water Challenge.",
+        "score_format_suffix_singular": "",
+        "score_format_suffix_plural": ""
+      }
+    },
+    {
+      "reference_name": "World 6 Challenge Time",
+      "leaderboard_id": "com.infiland.tcc.board.world_6_challenge_time",
+      "type": "classic",
+      "sort_order": "ascending",
+      "score_format": "Elapsed Time – To the hundredth of a second",
+      "score_unit": "centiseconds",
+      "score_meaning": "Elapsed time, sorted lowest-first. GML submits milliseconds and the Apple service boundary converts once to centiseconds (global.time * 100).",
+      "status": "draft; not submitted for review",
+      "score_submission_type": "Best Score",
+      "localization": {
+        "language": "English (U.S.)",
+        "display_name": "World 6 Challenge Time",
+        "description": "Fastest complete World 6 Challenge run.",
+        "score_format_suffix_singular": "",
+        "score_format_suffix_plural": ""
+      }
+    },
+    {
+      "reference_name": "World 7 Challenge Time",
+      "leaderboard_id": "com.infiland.tcc.board.world_7_challenge_time",
+      "type": "classic",
+      "sort_order": "ascending",
+      "score_format": "Elapsed Time – To the hundredth of a second",
+      "score_unit": "centiseconds",
+      "score_meaning": "Elapsed time, sorted lowest-first. GML submits milliseconds and the Apple service boundary converts once to centiseconds (global.time * 100).",
+      "status": "draft; not submitted for review",
+      "score_submission_type": "Best Score",
+      "localization": {
+        "language": "English (U.S.)",
+        "display_name": "World 7 Challenge Time",
+        "description": "Fastest complete World 7 Challenge run.",
+        "score_format_suffix_singular": "",
+        "score_format_suffix_plural": ""
+      }
+    },
+    {
+      "reference_name": "Calendar Wins",
+      "leaderboard_id": "com.infiland.tcc.board.calendar_wins",
+      "type": "classic",
+      "sort_order": "descending",
+      "score_format": "Integer",
+      "score_unit": "wins",
+      "score_meaning": "Highest calendar score/record value submitted by the game.",
+      "status": "draft; not submitted for review",
+      "score_submission_type": "Best Score",
+      "localization": {
+        "language": "English (U.S.)",
+        "display_name": "Calendar Wins",
+        "description": "Highest Calendar record.",
+        "score_format_suffix_singular": "win",
+        "score_format_suffix_plural": "wins"
+      }
+    },
+    {
+      "reference_name": "Cog Distance",
+      "leaderboard_id": "com.infiland.tcc.board.cog_distance",
+      "type": "classic",
+      "sort_order": "descending",
+      "score_format": "Integer",
+      "score_unit": "px",
+      "score_meaning": "Maximum cog travel distance, in game pixels.",
+      "status": "draft; not submitted for review",
+      "score_submission_type": "Best Score",
+      "localization": {
+        "language": "English (U.S.)",
+        "display_name": "Cog Distance",
+        "description": "Farthest distance travelled on the cog.",
+        "score_format_suffix_singular": "px",
+        "score_format_suffix_plural": "px"
+      }
+    },
+    {
+      "reference_name": "Daily Level Streak",
+      "leaderboard_id": "com.infiland.tcc.board.daily_level_streak",
+      "type": "classic",
+      "sort_order": "descending",
+      "score_format": "Integer",
+      "score_unit": "days",
+      "score_meaning": "Longest completed daily-level streak.",
+      "status": "draft; not submitted for review",
+      "score_submission_type": "Best Score",
+      "localization": {
+        "language": "English (U.S.)",
+        "display_name": "Daily Level Streak",
+        "description": "Longest streak of completed daily levels.",
+        "score_format_suffix_singular": "day",
+        "score_format_suffix_plural": "days"
+      }
+    },
+    {
+      "reference_name": "Endless Run",
+      "leaderboard_id": "com.infiland.tcc.board.endless_run",
+      "type": "classic",
+      "sort_order": "descending",
+      "score_format": "Integer",
+      "score_unit": "levels",
+      "score_meaning": "Greatest number of levels completed in this run.",
+      "status": "draft; not submitted for review",
+      "score_submission_type": "Best Score",
+      "localization": {
+        "language": "English (U.S.)",
+        "display_name": "Endless Run",
+        "description": "Most levels completed in a standard Endless Run.",
+        "score_format_suffix_singular": "level",
+        "score_format_suffix_plural": "levels"
+      }
+    },
+    {
+      "reference_name": "Endless Run 20L",
+      "leaderboard_id": "com.infiland.tcc.board.endless_run_20l",
+      "type": "classic",
+      "sort_order": "ascending",
+      "score_format": "Elapsed Time – To the hundredth of a second",
+      "score_unit": "centiseconds",
+      "score_meaning": "Elapsed time, sorted lowest-first. GML submits milliseconds and the Apple service boundary converts once to centiseconds (global.time * 100).",
+      "status": "draft; not submitted for review",
+      "score_submission_type": "Best Score",
+      "localization": {
+        "language": "English (U.S.)",
+        "display_name": "Endless Run 20L",
+        "description": "Fastest time to reach level 20L in Endless Run.",
+        "score_format_suffix_singular": "",
+        "score_format_suffix_plural": ""
+      }
+    },
+    {
+      "reference_name": "Endless Run 50L",
+      "leaderboard_id": "com.infiland.tcc.board.endless_run_50l",
+      "type": "classic",
+      "sort_order": "ascending",
+      "score_format": "Elapsed Time – To the hundredth of a second",
+      "score_unit": "centiseconds",
+      "score_meaning": "Elapsed time, sorted lowest-first. GML submits milliseconds and the Apple service boundary converts once to centiseconds (global.time * 100).",
+      "status": "draft; not submitted for review",
+      "score_submission_type": "Best Score",
+      "localization": {
+        "language": "English (U.S.)",
+        "display_name": "Endless Run 50L",
+        "description": "Fastest time to reach level 50L in Endless Run.",
+        "score_format_suffix_singular": "",
+        "score_format_suffix_plural": ""
+      }
+    },
+    {
+      "reference_name": "Old School Endless Run",
+      "leaderboard_id": "com.infiland.tcc.board.old_school_endless_run",
+      "type": "classic",
+      "sort_order": "descending",
+      "score_format": "Integer",
+      "score_unit": "levels",
+      "score_meaning": "Greatest number of levels completed in this run.",
+      "status": "draft; not submitted for review",
+      "score_submission_type": "Best Score",
+      "localization": {
+        "language": "English (U.S.)",
+        "display_name": "Old School Endless Run",
+        "description": "Most levels completed in Old School Endless Run.",
+        "score_format_suffix_singular": "level",
+        "score_format_suffix_plural": "levels"
+      }
+    },
+    {
+      "reference_name": "World 1 Time",
+      "leaderboard_id": "com.infiland.tcc.board.world_1_time",
+      "type": "classic",
+      "sort_order": "ascending",
+      "score_format": "Elapsed Time – To the hundredth of a second",
+      "score_unit": "centiseconds",
+      "score_meaning": "Elapsed time, sorted lowest-first. GML submits milliseconds and the Apple service boundary converts once to centiseconds (global.time * 100).",
+      "status": "draft; not submitted for review",
+      "score_submission_type": "Best Score",
+      "localization": {
+        "language": "English (U.S.)",
+        "display_name": "World 1 Time",
+        "description": "Fastest complete World 1 run.",
+        "score_format_suffix_singular": "",
+        "score_format_suffix_plural": ""
+      }
+    },
+    {
+      "reference_name": "World 2 Time",
+      "leaderboard_id": "com.infiland.tcc.board.world_2_time",
+      "type": "classic",
+      "sort_order": "ascending",
+      "score_format": "Elapsed Time – To the hundredth of a second",
+      "score_unit": "centiseconds",
+      "score_meaning": "Elapsed time, sorted lowest-first. GML submits milliseconds and the Apple service boundary converts once to centiseconds (global.time * 100).",
+      "status": "draft; not submitted for review",
+      "score_submission_type": "Best Score",
+      "localization": {
+        "language": "English (U.S.)",
+        "display_name": "World 2 Time",
+        "description": "Fastest complete World 2 run.",
+        "score_format_suffix_singular": "",
+        "score_format_suffix_plural": ""
+      }
+    },
+    {
+      "reference_name": "World 3 Time",
+      "leaderboard_id": "com.infiland.tcc.board.world_3_time",
+      "type": "classic",
+      "sort_order": "ascending",
+      "score_format": "Elapsed Time – To the hundredth of a second",
+      "score_unit": "centiseconds",
+      "score_meaning": "Elapsed time, sorted lowest-first. GML submits milliseconds and the Apple service boundary converts once to centiseconds (global.time * 100).",
+      "status": "draft; not submitted for review",
+      "score_submission_type": "Best Score",
+      "localization": {
+        "language": "English (U.S.)",
+        "display_name": "World 3 Time",
+        "description": "Fastest complete World 3 run.",
+        "score_format_suffix_singular": "",
+        "score_format_suffix_plural": ""
+      }
+    },
+    {
+      "reference_name": "World 4 Time",
+      "leaderboard_id": "com.infiland.tcc.board.world_4_time",
+      "type": "classic",
+      "sort_order": "ascending",
+      "score_format": "Elapsed Time – To the hundredth of a second",
+      "score_unit": "centiseconds",
+      "score_meaning": "Elapsed time, sorted lowest-first. GML submits milliseconds and the Apple service boundary converts once to centiseconds (global.time * 100).",
+      "status": "draft; not submitted for review",
+      "score_submission_type": "Best Score",
+      "localization": {
+        "language": "English (U.S.)",
+        "display_name": "World 4 Time",
+        "description": "Fastest complete World 4 run.",
+        "score_format_suffix_singular": "",
+        "score_format_suffix_plural": ""
+      }
+    },
+    {
+      "reference_name": "World 5 Time",
+      "leaderboard_id": "com.infiland.tcc.board.world_5_time",
+      "type": "classic",
+      "sort_order": "ascending",
+      "score_format": "Elapsed Time – To the hundredth of a second",
+      "score_unit": "centiseconds",
+      "score_meaning": "Elapsed time, sorted lowest-first. GML submits milliseconds and the Apple service boundary converts once to centiseconds (global.time * 100).",
+      "status": "draft; not submitted for review",
+      "score_submission_type": "Best Score",
+      "localization": {
+        "language": "English (U.S.)",
+        "display_name": "World 5 Time",
+        "description": "Fastest complete World 5 run.",
+        "score_format_suffix_singular": "",
+        "score_format_suffix_plural": ""
+      }
+    }
+  ],
+  "apple_time_migration": "Existing Apple timed-score saves queued in milliseconds are converted once to centiseconds before resubmission."
+}
