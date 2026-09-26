@@ -63,12 +63,13 @@ The player is the main character in The Colorful Creature, controlled by keyboar
   - Restart level
   - Platform-specific button mapping
 
-- **Mobile**
-  - Touch controls via Android-specific buttons
-  - Left/Right virtual buttons
-  - Jump button
-  - Interact button
-  - Restart button
+- **Mobile (Android and iOS)**
+  - Independent movement and action touches, including rapid re-taps and a second finger tapping a held action
+  - Slide between left/right controls without lifting; nearby thumb drift does not cancel a held button
+  - Overlapping custom controls choose the nearest button rather than triggering multiple actions
+  - Jump, interact, restart, skip, and pause controls use the same GUI-space input sampling before gameplay
+  - Move and resize the controls in Settings > Controls Config; positions stay inside the safe screen bounds
+  - Pause, backgrounding, and confirmation dialogs clear gameplay input to prevent stuck or accidental actions
 
 ### Special Features
 

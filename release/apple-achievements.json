@@ -1,0 +1,390 @@
+[
+  {
+    "game_id": "ABSOLUTE_ENDLESS_HELL",
+    "apple_id": "com.infiland.tcc.achievement.absolute_endless_hell"
+  },
+  {
+    "game_id": "A_FAN_OF_HATS",
+    "apple_id": "com.infiland.tcc.achievement.a_fan_of_hats"
+  },
+  {
+    "game_id": "A_SMALL_LOAN",
+    "apple_id": "com.infiland.tcc.achievement.a_small_loan"
+  },
+  {
+    "game_id": "BENCHMARK",
+    "apple_id": "com.infiland.tcc.achievement.benchmark"
+  },
+  {
+    "game_id": "BIGROOM_CHALLENGE",
+    "apple_id": "com.infiland.tcc.achievement.bigroom_challenge"
+  },
+  {
+    "game_id": "BLIND_CHALLENGE",
+    "apple_id": "com.infiland.tcc.achievement.blind_challenge"
+  },
+  {
+    "game_id": "BOSS_KILL_1",
+    "apple_id": "com.infiland.tcc.achievement.boss_kill_1"
+  },
+  {
+    "game_id": "BOSS_KILL_2",
+    "apple_id": "com.infiland.tcc.achievement.boss_kill_2"
+  },
+  {
+    "game_id": "BOSS_KILL_3",
+    "apple_id": "com.infiland.tcc.achievement.boss_kill_3"
+  },
+  {
+    "game_id": "BOSS_KILL_4",
+    "apple_id": "com.infiland.tcc.achievement.boss_kill_4"
+  },
+  {
+    "game_id": "BREAKABLE_CHALLENGE",
+    "apple_id": "com.infiland.tcc.achievement.breakable_challenge"
+  },
+  {
+    "game_id": "BRONZE_MEDAL",
+    "apple_id": "com.infiland.tcc.achievement.bronze_medal"
+  },
+  {
+    "game_id": "BYE_BYE_LEVEL",
+    "apple_id": "com.infiland.tcc.achievement.bye_bye_level"
+  },
+  {
+    "game_id": "CALENDAR_EASY",
+    "apple_id": "com.infiland.tcc.achievement.calendar_easy"
+  },
+  {
+    "game_id": "CALENDAR_HARD",
+    "apple_id": "com.infiland.tcc.achievement.calendar_hard"
+  },
+  {
+    "game_id": "CALENDAR_MEDIUM",
+    "apple_id": "com.infiland.tcc.achievement.calendar_medium"
+  },
+  {
+    "game_id": "CHECKPOINT",
+    "apple_id": "com.infiland.tcc.achievement.checkpoint"
+  },
+  {
+    "game_id": "CLICK_THE_HOTDOG",
+    "apple_id": "com.infiland.tcc.achievement.click_the_hotdog"
+  },
+  {
+    "game_id": "COIN_1",
+    "apple_id": "com.infiland.tcc.achievement.coin_1"
+  },
+  {
+    "game_id": "COIN_11",
+    "apple_id": "com.infiland.tcc.achievement.coin_11"
+  },
+  {
+    "game_id": "COIN_5",
+    "apple_id": "com.infiland.tcc.achievement.coin_5"
+  },
+  {
+    "game_id": "COMMUNITY_CHALLENGE",
+    "apple_id": "com.infiland.tcc.achievement.community_challenge"
+  },
+  {
+    "game_id": "COOKIE_CLICKER",
+    "apple_id": "com.infiland.tcc.achievement.cookie_clicker"
+  },
+  {
+    "game_id": "CORRUPTED_SPIKE_CHALLENGE",
+    "apple_id": "com.infiland.tcc.achievement.corrupted_spike_challenge"
+  },
+  {
+    "game_id": "DAILIES",
+    "apple_id": "com.infiland.tcc.achievement.dailies"
+  },
+  {
+    "game_id": "DEATHS_1",
+    "apple_id": "com.infiland.tcc.achievement.deaths_1"
+  },
+  {
+    "game_id": "DEATHS_11",
+    "apple_id": "com.infiland.tcc.achievement.deaths_11"
+  },
+  {
+    "game_id": "DEATHS_5",
+    "apple_id": "com.infiland.tcc.achievement.deaths_5"
+  },
+  {
+    "game_id": "DIAMOND_LOVER",
+    "apple_id": "com.infiland.tcc.achievement.diamond_lover"
+  },
+  {
+    "game_id": "DIAMOND_MEDAL",
+    "apple_id": "com.infiland.tcc.achievement.diamond_medal"
+  },
+  {
+    "game_id": "DOUBLEJUMP_CHALLENGE",
+    "apple_id": "com.infiland.tcc.achievement.doublejump_challenge"
+  },
+  {
+    "game_id": "EASTEREGG_1",
+    "apple_id": "com.infiland.tcc.achievement.easteregg_1"
+  },
+  {
+    "game_id": "EASTEREGG_2",
+    "apple_id": "com.infiland.tcc.achievement.easteregg_2"
+  },
+  {
+    "game_id": "EASTEREGG_3",
+    "apple_id": "com.infiland.tcc.achievement.easteregg_3"
+  },
+  {
+    "game_id": "EASTEREGG_4",
+    "apple_id": "com.infiland.tcc.achievement.easteregg_4"
+  },
+  {
+    "game_id": "EASTER_EGG",
+    "apple_id": "com.infiland.tcc.achievement.easter_egg"
+  },
+  {
+    "game_id": "ENDLESS_BEGINNER",
+    "apple_id": "com.infiland.tcc.achievement.endless_beginner"
+  },
+  {
+    "game_id": "ENDLESS_EXPERT",
+    "apple_id": "com.infiland.tcc.achievement.endless_expert"
+  },
+  {
+    "game_id": "ENDLESS_MASTER",
+    "apple_id": "com.infiland.tcc.achievement.endless_master"
+  },
+  {
+    "game_id": "ENDLESS_RUNNER",
+    "apple_id": "com.infiland.tcc.achievement.endless_runner"
+  },
+  {
+    "game_id": "FIRST_CHALLENGE",
+    "apple_id": "com.infiland.tcc.achievement.first_challenge"
+  },
+  {
+    "game_id": "FIRST_HAT",
+    "apple_id": "com.infiland.tcc.achievement.first_hat"
+  },
+  {
+    "game_id": "FLAG_GUY",
+    "apple_id": "com.infiland.tcc.achievement.flag_guy"
+  },
+  {
+    "game_id": "GOLDEN_SPIKE_DEATH",
+    "apple_id": "com.infiland.tcc.achievement.golden_spike_death"
+  },
+  {
+    "game_id": "GOLD_MEDAL",
+    "apple_id": "com.infiland.tcc.achievement.gold_medal"
+  },
+  {
+    "game_id": "GRAYSCALE",
+    "apple_id": "com.infiland.tcc.achievement.grayscale"
+  },
+  {
+    "game_id": "HAT_COMPLETIONIST",
+    "apple_id": "com.infiland.tcc.achievement.hat_completionist"
+  },
+  {
+    "game_id": "HAT_MERCHANT",
+    "apple_id": "com.infiland.tcc.achievement.hat_merchant"
+  },
+  {
+    "game_id": "HM_DIFFICULT",
+    "apple_id": "com.infiland.tcc.achievement.hm_difficult"
+  },
+  {
+    "game_id": "HM_IMPOSSIBLE",
+    "apple_id": "com.infiland.tcc.achievement.hm_impossible"
+  },
+  {
+    "game_id": "HM_INSANE",
+    "apple_id": "com.infiland.tcc.achievement.hm_insane"
+  },
+  {
+    "game_id": "HM_MEDIUM",
+    "apple_id": "com.infiland.tcc.achievement.hm_medium"
+  },
+  {
+    "game_id": "HM_RIDICULOUS",
+    "apple_id": "com.infiland.tcc.achievement.hm_ridiculous"
+  },
+  {
+    "game_id": "HM_YEAHGL",
+    "apple_id": "com.infiland.tcc.achievement.hm_yeahgl"
+  },
+  {
+    "game_id": "INVISIBLE_CHALLENGE",
+    "apple_id": "com.infiland.tcc.achievement.invisible_challenge"
+  },
+  {
+    "game_id": "INVISIBLE_SKIN",
+    "apple_id": "com.infiland.tcc.achievement.invisible_skin"
+  },
+  {
+    "game_id": "IT_HAPPENED",
+    "apple_id": "com.infiland.tcc.achievement.it_happened"
+  },
+  {
+    "game_id": "JACKPOT",
+    "apple_id": "com.infiland.tcc.achievement.jackpot"
+  },
+  {
+    "game_id": "JEBAITED",
+    "apple_id": "com.infiland.tcc.achievement.jebaited"
+  },
+  {
+    "game_id": "JUMP_1",
+    "apple_id": "com.infiland.tcc.achievement.jump_1"
+  },
+  {
+    "game_id": "JUMP_11",
+    "apple_id": "com.infiland.tcc.achievement.jump_11"
+  },
+  {
+    "game_id": "JUMP_5",
+    "apple_id": "com.infiland.tcc.achievement.jump_5"
+  },
+  {
+    "game_id": "KAIZO_CHALLENGE",
+    "apple_id": "com.infiland.tcc.achievement.kaizo_challenge"
+  },
+  {
+    "game_id": "LADDER_CHALLENGE",
+    "apple_id": "com.infiland.tcc.achievement.ladder_challenge"
+  },
+  {
+    "game_id": "LEVEL_COMPLETION_1",
+    "apple_id": "com.infiland.tcc.achievement.level_completion_1"
+  },
+  {
+    "game_id": "LEVEL_COMPLETION_11",
+    "apple_id": "com.infiland.tcc.achievement.level_completion_11"
+  },
+  {
+    "game_id": "LEVEL_COMPLETION_5",
+    "apple_id": "com.infiland.tcc.achievement.level_completion_5"
+  },
+  {
+    "game_id": "MONEY_SAVER",
+    "apple_id": "com.infiland.tcc.achievement.money_saver"
+  },
+  {
+    "game_id": "MOVING_CHALLENGE",
+    "apple_id": "com.infiland.tcc.achievement.moving_challenge"
+  },
+  {
+    "game_id": "OH_NO_THERES_MORE",
+    "apple_id": "com.infiland.tcc.achievement.oh_no_theres_more"
+  },
+  {
+    "game_id": "PERFECT_CHALLENGE",
+    "apple_id": "com.infiland.tcc.achievement.perfect_challenge"
+  },
+  {
+    "game_id": "POTATO_SETTINGS",
+    "apple_id": "com.infiland.tcc.achievement.potato_settings"
+  },
+  {
+    "game_id": "SILVER_MEDAL",
+    "apple_id": "com.infiland.tcc.achievement.silver_medal"
+  },
+  {
+    "game_id": "SKIN_COMPLETIONIST",
+    "apple_id": "com.infiland.tcc.achievement.skin_completionist"
+  },
+  {
+    "game_id": "SLIPPERY_CHALLENGE",
+    "apple_id": "com.infiland.tcc.achievement.slippery_challenge"
+  },
+  {
+    "game_id": "SPEED_CHALLENGE",
+    "apple_id": "com.infiland.tcc.achievement.speed_challenge"
+  },
+  {
+    "game_id": "SPIKE_CHALLENGE",
+    "apple_id": "com.infiland.tcc.achievement.spike_challenge"
+  },
+  {
+    "game_id": "SPINNNNN",
+    "apple_id": "com.infiland.tcc.achievement.spinnnnn"
+  },
+  {
+    "game_id": "THE_ANTI_DEATH",
+    "apple_id": "com.infiland.tcc.achievement.the_anti_death"
+  },
+  {
+    "game_id": "THE_CROWN",
+    "apple_id": "com.infiland.tcc.achievement.the_crown"
+  },
+  {
+    "game_id": "THE_GLITTERING_RICH",
+    "apple_id": "com.infiland.tcc.achievement.the_glittering_rich"
+  },
+  {
+    "game_id": "THE_REVERSE_PROBLEM",
+    "apple_id": "com.infiland.tcc.achievement.the_reverse_problem"
+  },
+  {
+    "game_id": "TORCHERD",
+    "apple_id": "com.infiland.tcc.achievement.torcherd"
+  },
+  {
+    "game_id": "TROOP_CHALLENGE",
+    "apple_id": "com.infiland.tcc.achievement.troop_challenge"
+  },
+  {
+    "game_id": "TUTORIAL_CHALLENGE",
+    "apple_id": "com.infiland.tcc.achievement.tutorial_challenge"
+  },
+  {
+    "game_id": "UH_OH",
+    "apple_id": "com.infiland.tcc.achievement.uh_oh"
+  },
+  {
+    "game_id": "WATER_CHALLENGE",
+    "apple_id": "com.infiland.tcc.achievement.water_challenge"
+  },
+  {
+    "game_id": "WEIRD_SPIKE_DEATH",
+    "apple_id": "com.infiland.tcc.achievement.weird_spike_death"
+  },
+  {
+    "game_id": "WORLD_1_QUICK",
+    "apple_id": "com.infiland.tcc.achievement.world_1_quick"
+  },
+  {
+    "game_id": "WORLD_2_QUICK",
+    "apple_id": "com.infiland.tcc.achievement.world_2_quick"
+  },
+  {
+    "game_id": "WORLD_3_QUICK",
+    "apple_id": "com.infiland.tcc.achievement.world_3_quick"
+  },
+  {
+    "game_id": "WORLD_4_QUICK",
+    "apple_id": "com.infiland.tcc.achievement.world_4_quick"
+  },
+  {
+    "game_id": "WORLD_5_QUICK",
+    "apple_id": "com.infiland.tcc.achievement.world_5_quick"
+  },
+  {
+    "game_id": "WORLD_6",
+    "apple_id": "com.infiland.tcc.achievement.world_6"
+  },
+  {
+    "game_id": "WORLD_7",
+    "apple_id": "com.infiland.tcc.achievement.world_7"
+  },
+  {
+    "game_id": "WORLD_WIDE_WEB",
+    "apple_id": "com.infiland.tcc.achievement.world_wide_web"
+  },
+  {
+    "game_id": "YOU_WIN",
+    "apple_id": "com.infiland.tcc.achievement.you_win"
+  }
+]
